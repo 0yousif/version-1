@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Home</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body >
+    <header id="page_header">
+        <nav class="h_navigation_container">
+            <img src="images/WhiteLogo.svg" alt="Pet Garden logo white strokes">
+            <section class="h_navigation_section_buttons" id="h_navigation_section_buttons">
+                <button class="h_navigation_button activated" onclick="document.location.href = 'index.html' ">Home</button>
+                <button class="h_navigation_button" onclick="document.location.href = 'shop.html' ">Shop</button>
+                <button class="h_navigation_button" onclick="document.location.href = 'about.html' ">About</button>
+                <button class="h_navigation_button" onclick="document.location.href = 'contact.html' ">Contact</button>
+            </section>
+        </nav>
+    </header>
+    <main class="home_main">
+
+        <!-- Home baner section -->
+    <section class="home_baner">
+        <article class="home_baner_first_section">
+        <h1 class="home_baner_header">
+            Pet Garden, Where <br> The Art of Premium <br> Pet Care
+        </h1>
+        <p class="home_baner_p">We cultivate excellence, offering only the finest for your pet—where luxury meets wellbeing, and every choice nurtures a happier, healthier life.</p>
+        </article>
+        <article class="home_baner_second_section">
+            <img src="images/HomeBaner.jpg" alt="This is an image of man holding a pet rabbit ">
+        </article>
+    </section>
+
+        <!-- Our happy customers section -->
+         <section class="home_customers">
+            <h2>Work Speaks Louder</h2>
+            <p>10K+ happy pets, zero complaints—results that outshine promises. Excellence delivered daily.</p>
+            <article class="home_light_box">
+                <div class="home_light_box_images">
+                    <a id="closed_lightbox_left_button" onclick="closedlightboxnext()" class="lightbox_navigation"><img src="images/arrow.png" alt="This is a left arrow image"></a>
+                    <img src="images/happyCustomer1.jpg" class="closed_lightbox_image" alt="An image of one of our happy customers holding his/her pet" id="closed_lightbox_img1"  onclick="openLightBox('1')" data-index="1">
+                    <img src="images/happyCustomer2.jpg" class="closed_lightbox_image" alt="An image of one of our happy customers holding his/her pet" id="closed_lightbox_img2" onclick="openLightBox('2')" data-index="2">
+                    <img src="images/happyCustomer3.jpg" class="closed_lightbox_image" alt="An image of one of our happy customers holding his/her pet" id="closed_lightbox_img3" onclick="openLightBox('3')" data-index="3">
+                    <a class="lightbox_navigation" onclick="closedlightboxprevious()" id="closed_lightbox_right_button"><img src="images/arrow.png" alt="This is a right arrow image"></a>
+                </div>
+            </article>
+            <article class="home_opened_lightbox" id="home_opened_lightbox">
+                <a id="opened_lightbox_left_button" onclick="openlightboxprevious()" class="lightbox_navigation"><img src="images/arrow.png" alt="This is a left arrow image"></a>
+                <div class="home_lightbox_display_image_container">
+                    <img src="images/happyCustomer1.jpg" id="home_lightbox_display_image" class="home_lightbox_display_image" alt="An image of one of our happy customers holding his/her pet" data-displayindex="1" >
+                </div>
+                <a class="lightbox_navigation" onclick="openlightboxnext()" id="opened_lightbox_right_button"><img src="images/arrow.png" alt="This is a right arrow image"></a>
+                <button onclick="closeLightBox()" class="opened_lightbox_quit_button" id="opened_lightbox_quit_button"><img src="images/x.png" alt="x symbol image"></button>
+            </article> 
+        </section>
+
+        <section class="home_advantages" >
+            <article>
+                <h2>Only Excellence</h2>
+                <p>We reject shortcuts—every product meets our strict criteria for quality, safety, and pet happiness.</p>
+            </article>
+            <article class="advantage_card">
+                <h3>Quality</h3>
+                <p>Every product meets strict standards—because your pet deserves nothing less.</p>
+            </article>
+            <article class="advantage_card">
+                <h3>Care</h3>
+                <p>From nutrition to toys, we think like pet parents first.</p>
+            </article>
+            <article class="advantage_card">
+                <h3>Trust</h3>
+                <p>Vets and pet experts approve every item we curate for you.</p>
+            </article>
+            <article class="advantage_card">
+                <h3>Speed</h3>
+                <p>Order by noon, receive tomorrow—happy pets can’t wait.</p>
+            </article>
+            <article class="advantage_card">
+                <h3>Sustainability</h3>
+                <p>Eco-friendly choices that keep tails wagging and Earth thriving.</p>
+            </article>
+        </section>
+
+        <section class="home_statistics">
+            <h2>Calculated Perfection</h2>
+            <div class="statistics_container" id="statistics_container">
+                <article class="statistic_box">
+                    <p data-max="500">0</p>
+                    <p>Served</p>
+                </article>
+                <article class="statistic_box">
+                    <p data-max="0">0</p>
+                    <p>Complaints</p>
+                </article>
+                <article class="statistic_box">
+                    <p data-max="130">0</p>
+                    <p>5-Stars</p>
+                </article>
+            </div>
+            
+        </section>
+        
+        <section class="home_buy_card">
+            <article>
+                <h2>Your Pet Deserves the Best – Get It Now</h2>
+                <button onclick="document.location.href = 'shop.html'">Buy Now</button>
+            </article>
+            <img src="images/grooming.jpg" alt="Women washing a dog">
+        </section>
+
+    </main>
+    <footer class="pages_footer">
+        <img src="images/whiteLogo.svg" class="logo" alt="Pet Garden logo white strokes">
+        <section class="pages_footer_links">
+            <div class="pages_footer_link">
+                <h3>Social Media</h3>
+                <a href="https://web.whatsapp.com/">WhatsApp</a>
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://x.com/">Twitter</a>
+                <a href="https://www.tiktok.com/">TikTok</a>
+            </div>
+
+
+            <div class="pages_footer_link">
+                <h3>Navigation</h3>
+                <a href="Index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="About.html">About</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+
+            <div class="pages_footer_link">
+                <h3>Location</h3>
+                <a >House 2146</a>
+                <a >Road 154</a>
+                <a >Block 701</a>
+                <a >Tubli</a>
+            </div>
+        </section>
+            <button class="footer_to_up" onclick="document.location.href = '#page_header'"><img src="images/arrow.png" alt="and arrow image"></button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

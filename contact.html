@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Contact</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body >
+    <header id="page_header">
+        <nav class="h_navigation_container">
+            <img src="images/WhiteLogo.svg" alt="Pet Garden logo white strokes">
+            <section class="h_navigation_section_buttons" id="h_navigation_section_buttons">
+                <button class="h_navigation_button" onclick="document.location.href = 'index.html' ">Home</button>
+                <button class="h_navigation_button" onclick="document.location.href = 'shop.html' ">Shop</button>
+                <button class="h_navigation_button" onclick="document.location.href = 'about.html' ">About</button>
+                <button class="h_navigation_button activated" onclick="document.location.href = 'contact.html' ">Contact</button>
+            </section>
+        </nav>
+    </header>
+    <main>
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <h1>We're here to help! Reach out with your<br> questions or feedback.</h1>
+            
+            <article class="contact-form-container">
+                <form class="contact-form" id="contact-form">
+                    <div class="contact-form-part1">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Dr. Joe">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="example@gmail.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="0 88888 88888">
+                    </div>
+                    </div>
+                    
+                    <div class="contact-content">
+                        <label for="message">Content</label>
+                        <textarea id="message" placeholder="Write your message here"></textarea>
+                     </div>                                    
+                </form>
+                <button type="submit" class="submit-btn" form="contact-form">Send It</button>
+            </article>
+        </section>
+
+        <!-- AI Chat Section -->
+        <section class="ai-chat-section">
+            <h2>AI Chat</h2>
+            <p class="ai-description">Ask us anything at anytime with our AI Agent</p>
+            <article class="chat-container">
+                <div class="chat-box">
+                    <div class="input-box"><input type="text" placeholder="Write Your Message"><img src="./images/sendingIcon.png" alt="this is a message sending icon"></input></div>
+                </div>
+            </article>
+
+            <h2>FAQ</h2>
+            
+            <article class="faq-container">
+                <details class="faq-item active_faq">
+                    <summary class="faq-question " >
+                        <div class="faq-icon">
+                            <img src="./images/plusIcon.jpg" alt="plus icon" >
+                        </div>
+                        <p>What services does Pets Garden offer?</p>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Pets Garden offers a comprehensive range of pet care services including veterinary consultations, grooming, boarding, training classes, and a specialized pet shop with premium foods, toys, and accessories. Our professional staff is dedicated to providing the highest quality care for your beloved pets.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item active_faq">
+                    <summary class="faq-question">
+                        <div class="faq-icon">
+                            <img src="./images/time.jpg" alt="Clock icon">
+                        </div>
+                        <p>What are your operating hours?</p>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Our main facility is open Monday through Friday from 8:00 AM to 7:00 PM, Saturday from 9:00 AM to 5:00 PM, and Sunday from 10:00 AM to 3:00 PM. Emergency veterinary services are available 24/7 through our hotline. Please note that specific services like grooming and training may have different schedules, so we recommend calling ahead to confirm availability.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item active_faq">
+
+                    <summary class="faq-question">
+                        <div class="faq-icon">
+                            <img src="./images/discount.png" alt="discount icon" >
+                        </div>
+                        <p>Do you offer any membership plans or discounts?</p>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Yes! We offer several membership plans that provide significant savings on regular pet care. Our Premium Paws plan includes monthly grooming, quarterly vet check-ups, and 15% off all store purchases for $49.99/month. For regular customers, we also offer a loyalty program where you earn points with every purchase that can be redeemed for services or products. Senior citizens, military personnel, and rescue pet adopters receive an additional 10% discount on all services.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item active_faq">
+
+                    <summary class="faq-question">
+                        <div class="faq-icon">
+                            <img src="./images/chat.png" alt="chat bubble icon" >
+                        </div>
+                        <p>How does the AI Chat feature work?</p>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Our AI Chat feature is designed to provide immediate answers to your pet care questions 24/7. Simply type your question in the chat box, and our pet care AI assistant will provide guidance based on veterinary-approved information. You can ask about pet behavior, nutrition, common health issues, and general care tips. For urgent matters or specific medical concerns, the AI will direct you to contact our veterinary staff immediately. All chat interactions are saved in your account for future reference.</p>
+                    </div>
+                </details>
+            </article>
+        </section>
+    </main>
+
+    <footer class="pages_footer">
+        <img src="images/whiteLogo.svg" class="logo" alt="Pet Garden logo white strokes">
+        <section class="pages_footer_links">
+            <div class="pages_footer_link">
+                <h3>Social Media</h3>
+                <a href="https://web.whatsapp.com/">WhatsApp</a>
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://x.com/">Twitter</a>
+                <a href="https://www.tiktok.com/">TikTok</a>
+            </div>
+
+
+            <div class="pages_footer_link">
+                <h3>Navigation</h3>
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+
+            <div class="pages_footer_link">
+                <h3>Location</h3>
+                <a >House 2146</a>
+                <a >Road 154</a>
+                <a >Block 701</a>
+                <a >Tubli</a>
+            </div>
+        </section>
+            <button class="footer_to_up" onclick="document.location.href = '#page_header'"><img src="images/arrow.png" alt="and arrow image"></button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
