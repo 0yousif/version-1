@@ -1926,12 +1926,12 @@ video{
     border-radius: 5px; 
     transition: all .25s;
     font-size: var(--paragraph2-font-size-pc);
+    cursor: pointer;
 }
 
 .contact-button:hover {
     background-color: black;
     color:white;
-    cursor: pointer;
 }
 
 /* Media Queries */
