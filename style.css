@@ -792,7 +792,7 @@ a:link {
 
 /* Contact Page */
 .contact_body {
-    background-image: url("./images/lineArtCat.png"), url("./images/dogLineArt.png") ;
+    background-image: url("images/lineArtCat.png"), url("images/dogLineArt.png") ;
     background-repeat: no-repeat, no-repeat;
     background-position: 0 30%, 110% 70%;
     background-size: 40rem auto, auto 70rem;
