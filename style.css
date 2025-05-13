@@ -1930,7 +1930,8 @@ video{
 
 .contact-button:hover {
     background-color: black;
-    color:white
+    color:white;
+    cursor: pointer;
 }
 
 /* Media Queries */
