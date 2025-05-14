@@ -48,7 +48,7 @@
 
 html{
     font-size: 1vw;
-    font-family: Dosis;
+    font-family: Dosis, Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -82,7 +82,7 @@ a{
 
 }
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Varela Round";
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
 }
 
 .h_navigation_container img {
@@ -102,7 +102,7 @@ h1,h2,h3,h4,h5,h6 {
     transition-delay: 0.2s;
     font-size: var(--paragraph3-font-size-pc);
     cursor: pointer;
-    font-family: Dosis;
+    font-family: Dosis , Arial, Helvetica, sans-serif;
 }
 
 .h_navigation_container .h_navigation_button:hover{
@@ -324,13 +324,13 @@ a:link {
 
 .home_baner .home_baner_first_section h1 {
     font-size: var(--baner-font-size-pc);
-    font-family: "Varela Round";
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
     margin-bottom: 0;
 }
 .home_baner .home_baner_first_section p {
     width: 70%;
     font-size: var(--paragraph1-font-size-pc);
-    font-family: "Dosis";
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
 }
 
 
@@ -395,7 +395,7 @@ a:link {
     
 }
 .home_customers > p {
-    font-family: Dosis;
+    font-family: Dosis, Arial, Helvetica, sans-serif;
     font-size: var(--paragraph2-font-size-pc);
 }
 .home_light_box_images img {
@@ -568,16 +568,16 @@ a:link {
 .home_advantages h2 {
     font-size: var(--header1-font-size-pc);
     margin-bottom: 0;
-    font-family: "Varela Round";
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
 }
 
 .home_advantages h3 {
     font-size: var(--header2-font-size-pc);
-    font-family: "Varela Round";
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
 }
 .home_advantages p {
     font-size: var(--paragraph2-font-size-pc);
-    font-family: "Dosis";
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
     margin-top: 0;
 }
 .advantage_card {
@@ -675,7 +675,7 @@ a:link {
     width: 15rem;
     height: 15rem;
     font-size: var(--header2-font-size-pc);
-    font-family: "Varela Round";
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
     text-align: center;
     display: flex;
     align-items:center;
@@ -723,7 +723,7 @@ a:link {
 
 }
 .home_buy_card h2{
-    font-family: "Varela Round";
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
     font-size:var(--header1-font-size-pc) ;
 }
 .home_buy_card article{
@@ -737,7 +737,7 @@ a:link {
     width: 10rem;
     height: 2rem;
     font-size: var(--paragraph2-font-size-pc);
-    font-family: "Dosis";
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
     border-radius: 0.5rem;
     background-color: transparent;
     border: 2px black solid;
@@ -818,7 +818,7 @@ a:link {
 
 .contact-section h1 {
     font-size: var(--baner-font-size-pc);
-    font-family: "Varela Round";
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
     margin-bottom: 3rem;
 }
 
@@ -925,7 +925,7 @@ a:link {
 .ai-chat-section h2 {
     text-align: center;
     font-size: var(--header1-font-size-pc);
-    font-family: "Varela Round";
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
     margin-bottom: 1rem;
     
 }
@@ -986,7 +986,7 @@ a:link {
     height: 100%;
     width: 100%;
     font-size: var(--paragraph2-font-size-pc);
-    font-family: Dosis;
+    font-family: Dosis, Arial, Helvetica, sans-serif;
     background-color: transparent;
     border: none;
 }
@@ -1029,7 +1029,7 @@ a:link {
 .faq-question p {
     flex: 1;
     font-size: var(--header2-font-size-pc);
-    font-family: "Varela Round";
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -1051,7 +1051,7 @@ a:link {
 .faq-answer {
     padding: 0 3rem 1rem;
     font-size: var(--paragraph2-font-size-pc);
-    font-family: Dosis;
+    font-family: Dosis, Arial, Helvetica, sans-serif;
     line-height: 1.5;
     width: 100%;
 }
@@ -1258,7 +1258,7 @@ a:link {
 /*Styling the two headings at the top of the shop page*/
 .headingtext {
   font-size: var(--baner-font-size-pc);
-  font-family: "Varela Round", sans-serif;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
   color: black;
 }
 /*Styling the figure tag that contains the image displayed at the top of the shop page*/
@@ -1358,7 +1358,7 @@ form{
   background-color: transparent;
   cursor: pointer;
   font-size: var(--paragraph3-font-size-pc);
-  font-family: "Dosis", sans-serif;
+  font-family: "Dosis", Arial, Helvetica, sans-serif;
   margin: 0.3rem;
   transition: all 0.25s;
 }
@@ -1442,7 +1442,7 @@ background-color: white;
   border: 2px solid  black;
   border-radius: 1rem;
   background-color: transparent;
-  font-family: "Dosis", sans-serif;
+  font-family: "Dosis", Arial, Helvetica, sans-serif;
   cursor: pointer;
   font-size: var(--paragraph3-font-size-pc);
   transition: all 0.25s;
@@ -1713,7 +1713,7 @@ background-color: white;
 
 .story h2{ 
     font-size: var(--header1-font-size-pc);
-    font-family: "Varela Round";
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
 }
 .column-container p{
     column-span: all; 
@@ -1768,11 +1768,11 @@ background-color: white;
 
 .why h2 {
     font-size: var(--header1-font-size-pc);
-    font-family: "Varela Round";
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
 }
 
 .why p {
-    font-family: Dosis;
+    font-family: Dosis, Arial, Helvetica, sans-serif;
     font-size: var(--paragraph2-font-size-pc);
 }
 .video-container{

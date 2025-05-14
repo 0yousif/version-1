@@ -30,7 +30,7 @@ addEventListener("scroll", ()=>{
 // lightbox functions
 let currentImageIndex = 0;
 let displayImage = document.getElementById("home_lightbox_display_image"); 
-let max_image = 4;
+let max_image = 5;
 let closed_lightbox_images = document.querySelectorAll(".home_light_box_images > img")
 
 // Closed light box functions, those functions are for the navigation
@@ -86,7 +86,7 @@ function closedlightboxprevious() {
             image.setAttribute('onclick',`openLightBox('${--image.dataset.index}')`)
             image.src = `images/happyCustomer${image.dataset.index}.jpg`
         }else {
-            image.dataset.index = 4
+            image.dataset.index = max_image
             image.setAttribute('onclick',`openLightBox('${max_image}')`)
             image.src = `images/happyCustomer${max_image}.jpg`
         }
