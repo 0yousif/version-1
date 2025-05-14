@@ -413,7 +413,7 @@ a:link {
     aspect-ratio: 1/1;
     -webkit-box-reflect: below 10px linear-gradient(to top,
     rgba(0, 0,0, 0.3),
-    rgba(0, 0, 0, 0) 25% ) ;
+    rgba(0, 0, 0, 0) 25%) ;
     cursor: pointer;
 }
 
@@ -701,7 +701,7 @@ a:link {
 }
 .statistics_container .statistic_box:nth-child(2){
     border-radius: 48% 52% 35% 65% / 58% 30% 70% 42%;
-    background-image: linear-gradient(25deg, #74736D 10%, #F5F5F5 90%);
+    background-image: radial-gradient( rgb(245, 245, 245, 0.5) 10% , #74736D 90%);
 }
 .statistics_container .statistic_box:nth-child(3){
     border-radius: 45% 55% 26% 74% / 63% 18% 82% 37% ;
