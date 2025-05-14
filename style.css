@@ -1,3 +1,4 @@
+/* Fonts Variables */
 :root{
     /* --baner-font-size-pc:4.2rem;
     --baner-font-size-tablet:6.3rem;
@@ -36,6 +37,8 @@
     --paragraph3-font-size-tablet:1.5rem;
     --paragraph3-font-size-phone:3rem;
 }
+
+/* Font faces creation */
 @font-face {
     font-family: "Dosis";
     src: url("fonts/Dosis-Regular.ttf");
@@ -45,7 +48,7 @@
     font-family: "Varela Round";
     src: url("fonts/VarelaRound-Regular.ttf");
 }
-
+/* General rules for tags mainly */
 html{
     font-size: 1vw;
     font-family: Dosis, Arial, Helvetica, sans-serif;
@@ -64,13 +67,12 @@ body {
     overflow-x: hidden;
 }
 
-.home_main {
-    height: auto;
-}
+
 a{
     text-decoration: none;
 }
 
+/*  ________________ Header ______________ */
 .h_navigation_container{
     background-color: #253325;
     display: flex;
@@ -84,6 +86,7 @@ a{
 h1,h2,h3,h4,h5,h6 {
     font-family: "Varela Round", Arial, Helvetica, sans-serif;
 }
+
 
 .h_navigation_container img {
     width: 10rem;
@@ -302,6 +305,10 @@ a:link {
 /* Home page */
 /* Baner */
 
+
+.home_main {
+    height: auto;
+}
 .home_baner {
     display: flex;
     flex-direction: row;  
@@ -333,7 +340,7 @@ a:link {
     font-family: "Dosis", Arial, Helvetica, sans-serif;
 }
 
-
+/* Meta tags for the baner */
 @media screen and (max-width:1000px) {
     .home_baner .home_baner_first_section h1 {
         font-size:var(--baner-font-size-tablet) ; 
@@ -372,6 +379,7 @@ a:link {
         display: none;
     }
 }
+
 /* Our happy customers section */
 
 .home_customers{
@@ -496,7 +504,7 @@ a:link {
     background-color: black;
 }
 
-
+/* media queries for the light box section */
 @media only screen and (max-width:1000px){
     .opened_lightbox_quit_button {
         width: 4rem;
@@ -554,6 +562,7 @@ a:link {
         height: 8rem;
     }
 }
+
 /* Advantages Section */
 .home_advantages {
     display: flex;
@@ -597,7 +606,9 @@ a:link {
     transform: rotate(-5deg);
     background-image: linear-gradient(25deg, #74736D 25%, #F5F5F5 75%) ;
 }
-@media screen and (max-width:1000px) {
+
+/* Media queries for the advantages section */
+/* @media screen and (max-width:1000px) {
     .home_advantages h3 {
         font-size: var(--header2-font-size-pc);   
     }
@@ -614,7 +625,7 @@ a:link {
         height: auto;
     }
     
-}
+} */
 @media screen and (max-width:1000px) {
     .home_advantages {
         gap: 2rem;
@@ -656,6 +667,7 @@ a:link {
     }
     
 }
+
 /* Statistics Section */
 .home_statistics {
     width: 100rem;
@@ -694,6 +706,8 @@ a:link {
 .statistics_container .statistic_box:nth-child(3){
     border-radius: 45% 55% 26% 74% / 63% 18% 82% 37% ;
 }
+
+/* Media queries for the statistics section */
 @media screen and (max-width:600px) {
     .home_statistics .statistic_box {
         font-size: var(--header2-font-size-tablet);
@@ -709,6 +723,7 @@ a:link {
         aspect-ratio: 1/1;
     }
 }
+
 /* Buy Now Card */
 .home_buy_card {
     display: flex;
@@ -754,6 +769,7 @@ a:link {
     border-radius: 0 3rem 3rem 0;
 }
 
+/* Media queries for the card */
 @media screen and (max-width:1000px) {
     .home_buy_card article button {
         height: 3.5rem;
@@ -1112,7 +1128,7 @@ a:link {
     right: 5%;
 }
 
-/* Media queries */
+/* Media queries for the whole contact page */
 @media only screen and (max-width:1000px) {
     
     .contact-form {
@@ -1613,7 +1629,7 @@ background-color: white;
     width: 70rem;
   }
 }
-
+/* Shop Page END */
 
 
 /* About page  */
@@ -1976,95 +1992,5 @@ video{
     }
     .seeking-section p {
         font-size: var(--paragraph2-font-size-phone);
-    }
-}
-
-
-/* FOOTER section */
-.pages_footer {
-    height: 13rem;
-    background: #253325;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    text-align: left;
-}
-
-.pages_footer img {
-    width: 10rem;
-}
-
-.pages_footer_links {
-    display: flex;
-    width: 50%;
-    justify-content: space-between;
-}
-
-.pages_footer_link {
-    display: flex;
-    flex-direction: column;
-}
-
-.pages_footer_link a {
-    font-size: 1.2rem;
-}
-
-.pages_footer_link h3 {
-    font-size: 1.6rem;
-}
-
-a:visited,
-a:link {
-    color: white; 
-}
-
-
-/* Media Queries */
-@media only screen and (max-width: 1000px) {
-    .pages_footer img {
-        width: 20rem;
-    }
-
-    .pages_footer {
-        flex-direction: column;
-        height: auto;
-        padding: 2rem 0;
-    }
-
-    .pages_footer_link a {
-        font-size: 1.8rem;
-    }
-
-    .pages_footer_link h3 {
-        font-size: 2.4rem;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .pages_footer img {
-        width: 40rem;
-    }
-
-    .pages_footer {
-        flex-direction: column;
-        height: auto;
-        padding: 3rem 0;
-    }
-
-    .pages_footer_links {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .pages_footer_link a {
-        font-size: 3.6rem;
-        text-align: center;
-    }
-
-    .pages_footer_link h3 {
-        font-size: 4.8rem;
-        text-align: center;
     }
 }
