@@ -98,7 +98,7 @@ let statisticsContainer = document.getElementById("statistics_container")
 let statistics = document.querySelectorAll(".statistic_box p:first-of-type");
 let increasing = false;
 
-addEventListener("scroll", ()=>{
+function start_increasing(){
     currentY = window.scrollY;  
     try{
        let rect = statisticsContainer.getBoundingClientRect();
@@ -122,6 +122,9 @@ addEventListener("scroll", ()=>{
     }catch(error){
         console.log(error)
     }
+}
+addEventListener("scroll", ()=>{
+    start_increasing();
 })
 
 // Shop page related Javascript
