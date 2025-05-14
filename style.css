@@ -36,6 +36,15 @@
     --paragraph3-font-size-tablet:1.5rem;
     --paragraph3-font-size-phone:3rem;
 }
+@font-face {
+    font-family: "Dosis";
+    src: url("fonts/Dosis-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Varela Round";
+    src: url("fonts/VarelaRound-Regular.ttf");
+}
 
 html{
     font-size: 1vw;
@@ -89,10 +98,11 @@ h1,h2,h3,h4,h5,h6 {
     border: none;
     margin: 0rem 0.5rem;
     text-align: center;
-    transition: color .5s , border .3s, background-color .5s;
+    transition: color .5s , border .3s, background-color .2s;
     transition-delay: 0.2s;
     font-size: var(--paragraph3-font-size-pc);
     cursor: pointer;
+    font-family: Dosis;
 }
 
 .h_navigation_container .h_navigation_button:hover{
@@ -192,7 +202,7 @@ h1,h2,h3,h4,h5,h6 {
 } 
 
 .pages_footer .logo:hover{
-      animation: footer_logo_animation 0.25s ease-in ;
+      animation: footer_logo_animation 0.25s ease-in  ;
 
 }
 @keyframes footer_logo_animation {
